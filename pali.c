@@ -27,6 +27,7 @@ int pali(char *s)
 		else
 			flag = 1;
 	}
+	// Added extra comment to check git merge
 	return (!*s && *(++s2) == *(--s));
 }
 
