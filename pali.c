@@ -4,6 +4,7 @@
 // Author: Vinod Sasidharan
 // Version:
 //        1.0 - October 7, 2017
+//        1.1 - Updated with proper spaces
 // ----------------------------------------
 
 #include <stdio.h>
@@ -30,6 +31,6 @@ int main(void)
 	*(buff + strlen(buff) - 1) = '\0';
 
 	printf("Is the string \"%s\" palindrome? %s\n",buff, pali(buff)?"YES":"NO");
+
 	return 0;
-	
 }
