@@ -13,11 +13,20 @@
 
 int pali(char *s)
 {
+	int flag = 0;
+
 	char *s2 = s + strlen(s) - 1;
 
 	// sanity check
 	if(!*s) return 0;
-	while(*(s2--) == *(s++) && *s);
+	//while(*(s2--) == *(s++) && *s);
+	while(flag == 0)
+	{
+		if((*(s2--) == *(s++)) && *s)
+			flag = 0;
+		else
+			flag = 1;
+	}
 	return (!*s && *(++s2) == *(--s));
 }
 
