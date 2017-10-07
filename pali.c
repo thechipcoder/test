@@ -5,6 +5,7 @@
 // Version:
 //        1.0 - October 7, 2017
 //        1.1 - Updated with proper spaces
+//        1.2 - Updated with new version number
 // ----------------------------------------
 
 #include <stdio.h>
