@@ -8,6 +8,7 @@
 //        1.2 - Updated with new version number
 //        1.3 - new version number for test repo:test branch
 //        1.4 - version number of 1st feature commit
+//        1.5 - version number of 2nd feature commit
 // ----------------------------------------
 
 #include <stdio.h>
