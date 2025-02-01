@@ -10,6 +10,7 @@
 //        1.4 - version number of 1st feature commit
 //        1.5 - version number of 2nd feature commit
 //        1.6 - version number of 3rd feature commit
+//        1.7 - version number of 4th feature commit
 // ----------------------------------------
 
 #include <stdio.h>
