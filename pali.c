@@ -11,6 +11,8 @@
 //        1.5 - version number of 2nd feature commit
 //        1.6 - version number of 3rd feature commit
 //        1.7 - version number of 4th feature commit
+//        1.8 - version number of 5th feature commit
+//        1.9 - version number of 6th feature commit
 // ----------------------------------------
 
 #include <stdio.h>

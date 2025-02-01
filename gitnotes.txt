@@ -1,0 +1,19 @@
+Squash last 3 commits in a developer branch:
+	git reset --soft HEAD~3
+	git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
+
+Don't use "git pull":
+	git fetch
+	git log --graph --oneline origin/test test
+	Then "git rebase" or "git merge"
+	git shortlog
+
+git stash -u  (including untracked files)
+git stash list
+git fetch
+git rebase/merge
+git stash pop or git stash apply
+
+
+
+
