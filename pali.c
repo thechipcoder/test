@@ -9,6 +9,7 @@
 //        1.3 - new version number for test repo:test branch
 //        1.4 - version number of 1st feature commit
 //        1.5 - version number of 2nd feature commit
+//        1.6 - version number of 3rd feature commit
 // ----------------------------------------
 
 #include <stdio.h>
