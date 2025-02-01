@@ -2,6 +2,24 @@ Squash last 3 commits in a developer branch:
 	git reset --soft HEAD~3
 	git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
 
+Another command for squash:
+	git rebase -i HEAD~2
+	git rebase --continue (use "git add ." to stage resolved commits & use this to know that rebase is fully completed)
+	git push --force-with-lease
+
+Adding new change to previous commit itself:
+	git add .
+	git commit --amend --no-edit
+
+Updating a master branch:
+	git checkout master
+	git pull origin master
+	git merge test
+	git push origin master
+
+Ammend commit message:
+	git commit --amend
+
 Don't use "git pull":
 	git fetch
 	git log --graph --oneline origin/test test
